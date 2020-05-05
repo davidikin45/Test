@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 
 ### Installing
-1. Create a new SQL database by executing scripts/DemoDBScriptQuery.sql
+1. Create a database named Demo and execute scripts/DemoDBScriptQuery.sql against it
 2. Modify appsettings.json DefaultConnection as required. By default it is set to 'Server=(LocalDB)\\MSSQLLocalDB;Database=Demo;Trusted_Connection=True;MultipleActiveResultSets=true;'
 3. Run the following from a command line:
 ```
