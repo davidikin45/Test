@@ -19,6 +19,13 @@ dotnet run --project src\Test.csproj
 ```
 4. Direct to https://localhost:5001/stats to view summary of jobs stats per room type
 
+## Running the tests
+
+### Unit Tests
+```
+dotnet test test\UnitTests\UnitTests.csproj
+```
+
 ## Authors
 
 * **Dave Ikin** - [davidikin45](https://github.com/davidikin45)

@@ -19,8 +19,10 @@ namespace Test.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Job>().ToTable("RX_Job");
+                //.OwnsOne(o => o.Status, s => s.Property(p => p.Status).HasColumnName("Status"));
             modelBuilder.Entity<RoomType>().ToTable("RX_RoomType");
             modelBuilder.Entity<RoomProgress>().HasNoKey();
+
         }
     }
 }
